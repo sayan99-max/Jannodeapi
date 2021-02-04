@@ -5,8 +5,8 @@ const mongo=require('mongodb');
 const MongoClient=mongo.MongoClient;
 const bodyParser=require('body-parser');
 const cors=require('cors');
-const mongourl="mongodb://localhost:27017";
-//const mongourl="mongodb+srv://sayan:sayan@99@cluster0.tskhr.mongodb.net/edunov?retryWrites=true&w=majority";
+//const mongourl="mongodb://localhost:27017";
+const mongourl="mongodb+srv://sayan:sayan@99@cluster0.tskhr.mongodb.net/edunov?retryWrites=true&w=majority";
 let db;
 
 
